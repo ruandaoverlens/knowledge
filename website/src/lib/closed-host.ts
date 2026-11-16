@@ -34,6 +34,10 @@ export function closedHostResponse(request: NextRequest): NextResponse | null {
 
   const { pathname } = request.nextUrl;
   if (pathname === WAITLIST_API_PATH) return NextResponse.next();
+  // A API do Knowledge (ADR 0007) é chamada pelo servidor do Growth System com
+  // token de serviço; continua viva aqui até o KNOWLEDGE_API_URL ir para o
+  // domínio novo.
+  if (pathname.startsWith("/api/knowledge")) return null;
   if (pathname.startsWith("/api/")) {
     return NextResponse.json({ error: "Acesso encerrado neste endereço." }, { status: 410 });
   }
