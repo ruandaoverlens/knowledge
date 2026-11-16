@@ -19,7 +19,7 @@ The Next.js app in `website/` powers the live Overlens product.
 ### Stack
 - **Frontend/API**: Next.js 16 + React 19 (`website/`)
 - **Backend**: Supabase (`supabase/` for migrations and config)
-- **Hosting**: Vercel. `main` branch → production (`overlens-os.vercel.app`); any other branch → preview
+- **Hosting**: Vercel. `main` branch → production (`https://tru.overlens.io`; the old host `overlens-os.vercel.app` only serves the closed-access notice, see ADR 0008); any other branch → preview
 - **Secrets**: [Infisical](https://infisical.com), project `overlens-os`, environments `dev` / `preview` / `production`. Synced to Vercel via Native Integration (auto-push on change). **No `.env.local` exists anywhere in the repo**, so running `npm run dev` requires `infisical login` first.
 - **Cron jobs**: defined in `website/vercel.json` (currently `/api/magny/pipeline/watchdog` daily at 8am UTC).
 

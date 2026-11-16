@@ -23,3 +23,4 @@ Um ADR documenta **uma decisão** com consequências duradouras: o contexto que 
 | [0004](0004-jornada-guiada-registro-marca.md) | Jornada guiada de registro de marca | Proposto |
 | [0005](0005-tema-claro-e-escala-de-superficie-relativa.md) | Tema claro e escala de superfície relativa ao tema | Proposto |
 | [0006](0006-classificacao-de-certeza-como-ponto-de-qualidade.md) | Classificação de certeza como ponto de qualidade e fim dos travessões | Aceito |
+| [0008](0008-dominio-tru-e-fechamento-do-host-antigo.md) | Domínio tru.overlens.io e fechamento do host antigo | Proposto |

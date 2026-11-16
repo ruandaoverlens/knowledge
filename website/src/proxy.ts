@@ -1,6 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import { updateSession } from "@/lib/supabase/middleware";
 import { canAccessRoute, isManagedRoute, isOverlensEmail, isRegistrosRoute } from "@/lib/route-access";
+import { closedHostResponse } from "@/lib/closed-host";
 
 // Set to true to bypass auth during development
 const BYPASS_AUTH = false;
@@ -8,6 +9,10 @@ const BYPASS_AUTH = false;
 const PUBLIC_ROUTES = ["/login", "/auth"];
 
 export async function proxy(request: NextRequest) {
+  // Host antigo (overlens-os.vercel.app) só mostra o aviso. ADR 0008.
+  const closed = closedHostResponse(request);
+  if (closed) return closed;
+
   if (BYPASS_AUTH) return NextResponse.next();
 
   const { user, role, supabaseResponse } = await updateSession(request);

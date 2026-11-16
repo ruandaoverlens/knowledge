@@ -41,7 +41,7 @@ App web do Infisical → projeto `overlens-os` → ambiente correspondente (`dev
 
 ## Deploy
 
-`main` → produção (`overlens-os.vercel.app`). Qualquer outra branch → Preview Deployment automático na Vercel. Env vars vêm da Infisical Native Integration; nada precisa ser cadastrado no dashboard Vercel manualmente.
+`main` → produção (`https://tru.overlens.io`). O host antigo `overlens-os.vercel.app` só mostra o aviso de acesso fechado (ADR 0008). Qualquer outra branch → Preview Deployment automático na Vercel. Env vars vêm da Infisical Native Integration; nada precisa ser cadastrado no dashboard Vercel manualmente.
 
 ## Scripts standalone
 

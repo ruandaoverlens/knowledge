@@ -9,7 +9,7 @@ export const openrouter = createOpenAICompatible({
   baseURL: "https://openrouter.ai/api/v1",
   apiKey: process.env.OPENROUTER_API_KEY ?? "",
   headers: {
-    "HTTP-Referer": process.env.OPENROUTER_SITE_URL ?? "https://overlens-os.vercel.app",
+    "HTTP-Referer": process.env.OPENROUTER_SITE_URL ?? "https://tru.overlens.io",
     "X-Title": process.env.OPENROUTER_APP_NAME ?? "Overlens OS",
   },
 });

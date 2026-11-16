@@ -12,7 +12,7 @@ export interface OgMetadata {
 }
 
 const USER_AGENT =
-  "Mozilla/5.0 (compatible; OverlensMyceliumBot/1.0; +https://overlens-os.vercel.app)";
+  "Mozilla/5.0 (compatible; OverlensMyceliumBot/1.0; +https://tru.overlens.io)";
 const TIMEOUT_MS = 5000;
 const MAX_HTML_BYTES = 512 * 1024; // 512KB — só precisamos do <head>
 const MAX_IMAGE_BYTES = 8 * 1024 * 1024; // 8MB — limite de tamanho de cover
