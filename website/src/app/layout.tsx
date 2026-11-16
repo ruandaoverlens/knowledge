@@ -28,7 +28,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://overlens-os.vercel.app"),
+  metadataBase: new URL("https://tru.overlens.io"),
   title: { default: "Overlens OS", template: "%s · Overlens OS" },
   description:
     "Sistema operacional da Overlens: brand system, assets, micélio e registros da escola de Empreendedores Nexialistas.",

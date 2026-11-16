@@ -24,3 +24,4 @@ Um ADR documenta **uma decisão** com consequências duradouras: o contexto que 
 | [0005](0005-tema-claro-e-escala-de-superficie-relativa.md) | Tema claro e escala de superfície relativa ao tema | Proposto |
 | [0006](0006-classificacao-de-certeza-como-ponto-de-qualidade.md) | Classificação de certeza como ponto de qualidade e fim dos travessões | Aceito |
 | [0007](0007-base-como-fonte-oficial-e-api-de-leitura.md) | A base de conhecimento como fonte oficial e a API de leitura para o Growth System | Aceito |
+| [0008](0008-dominio-tru-e-fechamento-do-host-antigo.md) | Domínio tru.overlens.io e fechamento do host antigo | Proposto |
