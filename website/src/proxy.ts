@@ -5,7 +5,9 @@ import { canAccessRoute, isManagedRoute, isOverlensEmail, isRegistrosRoute } fro
 // Set to true to bypass auth during development
 const BYPASS_AUTH = false;
 
-const PUBLIC_ROUTES = ["/login", "/auth"];
+// `/api/knowledge` não usa a sessão do site: a rota exige o token de serviço do Growth System
+// (src/lib/knowledge/auth.ts, docs/adr/0007).
+const PUBLIC_ROUTES = ["/login", "/auth", "/api/knowledge"];
 
 export async function proxy(request: NextRequest) {
   if (BYPASS_AUTH) return NextResponse.next();

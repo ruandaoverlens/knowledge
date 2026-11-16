@@ -12,6 +12,24 @@ export interface DocFrontmatter {
   priority?: "high" | "medium" | "low";
   ai_when_to_use?: string;
   related?: string[];
+  /**
+   * Conexão com o Growth System (docs/adr/0007). Áreas da operação que leem este documento
+   * (`vendas`, `cs`, `marketing`, `atendimento`); o Growth System mostra o documento na aba
+   * Documentação do app da área.
+   */
+  areas?: string[];
+  /** Áreas em que este documento é a porta de entrada (abre primeiro na Documentação). */
+  area_home?: string[];
+  /** Chave estável para confirmar leitura (não muda quando o arquivo é renomeado). */
+  key?: string;
+  /** Versão da regra. Subir quando a regra muda: pede um novo "li e entendi". */
+  version?: number;
+  /** Data desta versão (AAAA-MM-DD). */
+  updated?: string | Date;
+  /** Pede "li e entendi" a quem é da área. */
+  ack?: boolean;
+  /** `politica` (regra que vale para todos), `guia` (como agir) ou `referencia`. */
+  kind?: "politica" | "guia" | "referencia";
 }
 
 export interface DocFile {
