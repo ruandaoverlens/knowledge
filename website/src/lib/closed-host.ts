@@ -1,12 +1,8 @@
 import { type NextRequest, NextResponse } from "next/server";
+import { isClosedHostname } from "@/lib/closed-host-names";
 
-/**
- * Host antigo do Brand System, fechado ao público (ADR 0008).
- *
- * Comparação por host exato: previews (`*-git-*.vercel.app`), localhost e o
- * domínio novo (`tru.overlens.io`) não passam por aqui.
- */
-const CLOSED_HOSTS = new Set(["overlens-os.vercel.app"]);
+// Comparação por host exato: previews (`*-git-*.vercel.app`), localhost e o
+// domínio novo (`tru.overlens.io`) não passam por aqui.
 
 /** Rota pública que todo caminho do host fechado passa a mostrar. */
 export const AVISO_PATH = "/aviso";
@@ -30,7 +26,7 @@ function requestHost(request: NextRequest): string {
  * proxy segue o fluxo de sempre.
  */
 export function closedHostResponse(request: NextRequest): NextResponse | null {
-  if (!CLOSED_HOSTS.has(requestHost(request))) return null;
+  if (!isClosedHostname(requestHost(request))) return null;
 
   const { pathname } = request.nextUrl;
   if (pathname === WAITLIST_API_PATH) return NextResponse.next();

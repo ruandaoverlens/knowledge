@@ -20,6 +20,7 @@ import {
 } from "./client";
 import { rowToNotification, type Notification, type NotificationRow } from "./types";
 import { notify } from "@/lib/notifications/toast";
+import { isClosedHostname } from "@/lib/closed-host-names";
 
 interface NotificationsContextValue {
   items: Notification[];
@@ -33,8 +34,19 @@ interface NotificationsContextValue {
 
 const NotificationsContext = createContext<NotificationsContextValue | null>(null);
 
+/**
+ * No host fechado (ADR 0008) a API devolve 410 e a tela é só o aviso: quem
+ * ainda tem sessão antiga veria um toast de erro. Lá, as notificações ficam
+ * desligadas.
+ */
+function onClosedHost(): boolean {
+  if (typeof window === "undefined") return false;
+  return isClosedHostname(window.location.hostname) || window.location.pathname === "/aviso";
+}
+
 export function NotificationsProvider({ children }: { children: ReactNode }) {
-  const { user } = useAuth();
+  const auth = useAuth();
+  const user = onClosedHost() ? null : auth.user;
   const [supabase] = useState(() => createClient());
   const [items, setItems] = useState<Notification[]>([]);
   const [loading, setLoading] = useState(false);

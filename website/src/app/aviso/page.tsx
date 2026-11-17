@@ -24,7 +24,7 @@ export default function AvisoPage() {
       <div className="max-w-md w-full space-y-8">
         <div className="space-y-4 text-center">
           <p className="text-xs uppercase tracking-widest text-surface-400">Overlens</p>
-          <HeadingTitle as="h1" size="default" className="text-center">
+          <HeadingTitle as="h1" size="lg" className="text-center text-balance">
             O Brand System da Overlens mudou
           </HeadingTitle>
           <div className="space-y-3 text-sm leading-relaxed text-muted-foreground">
@@ -35,7 +35,7 @@ export default function AvisoPage() {
             </p>
             <p>
               Vamos apresentar tudo o que mudou num evento especial. Deixe seu contato para entrar
-              na lista de espera e avisamos você quando o evento tiver data.
+              na lista de espera e avisamos você quando tivermos novidades.
             </p>
           </div>
         </div>
