@@ -24,7 +24,7 @@ export default function AvisoPage() {
       <div className="max-w-md w-full space-y-8">
         <div className="space-y-4 text-center">
           <p className="text-xs uppercase tracking-widest text-surface-400">Overlens</p>
-          <HeadingTitle as="h1" size="lg" className="text-center text-balance">
+          <HeadingTitle as="h1" size="xl" className="text-center text-balance">
             O Brand System da Overlens mudou
           </HeadingTitle>
           <div className="space-y-3 text-sm leading-relaxed text-muted-foreground">

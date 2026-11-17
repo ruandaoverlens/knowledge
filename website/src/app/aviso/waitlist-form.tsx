@@ -173,10 +173,6 @@ export function WaitlistForm() {
       {errors.form && (
         <FieldError className="pl-0 text-center">{errors.form}</FieldError>
       )}
-
-      <p className="text-xs text-muted-foreground text-center">
-        Usamos seu contato só para falar sobre o evento.
-      </p>
     </form>
   );
 }
