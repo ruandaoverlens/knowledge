@@ -6,7 +6,7 @@
 
 ## Contexto
 
-O Brand System da Overlens ficou publicado em `overlens-os.vercel.app` e foi usado como referência por muitas pessoas de fora da empresa. A Overlens reescreveu o Brand System e decidiu fechar o acesso. O app ganhou um domínio próprio, `tru.overlens.io`, já adicionado ao projeto `overlens-os` na Vercel e com DNS configurado.
+O Brand System da Overlens ficou publicado em `overlens-os.vercel.app` e foi usado como referência por muitas pessoas de fora da empresa. A Overlens reescreveu o Brand System e decidiu fechar o acesso. O app ganhou um domínio próprio, `tru.overlens.io`, já adicionado ao projeto `knowledge` na Vercel e com DNS configurado.
 
 O endereço antigo continua circulando em links, favoritos e materiais de terceiros. Desligá-lo de vez faria essas pessoas encontrarem um erro, sem explicação e sem um caminho para acompanhar o que mudou.
 
@@ -35,7 +35,7 @@ Vamos tratar `overlens-os.vercel.app` como **host fechado** e servir o app apena
 ## Consequências
 
 - Quem chega pelo endereço antigo entende o que aconteceu e pode deixar o contato. O app inteiro passa a depender do domínio novo.
-- O projeto `overlens-os` passa a ter credencial `service_role` de outro projeto Supabase. Ela só é usada no servidor, só pela rota da lista de espera, e precisa estar nos três ambientes do Infisical.
+- O projeto `knowledge` passa a ter credencial `service_role` de outro projeto Supabase. Ela só é usada no servidor, só pela rota da lista de espera, e precisa estar nos três ambientes do Infisical.
 - Variáveis novas no Infisical: `CRM_SUPABASE_URL`, `CRM_SUPABASE_SERVICE_ROLE_KEY`, `CRM_INTAKE_ACTOR` (e-mail que assina o cadastro; precisa ser dono da lista ou ter escopo de vendas `all`) e `CRM_WAITLIST_LIST_ID` (lista estática criada no CRM; sem ela o lead entra no CRM, mas fora da lista).
 - `crm_list_import_rows` não tem uma porta "formulário"; usamos `paste`, então a atividade no CRM aparece como "Subiu por texto colado". Se o CRM ganhar uma porta própria, a rota troca o valor.
 - O limite por IP é por instância serverless: protege contra repetição boba, não contra ataque distribuído. Se houver abuso, o próximo passo é o firewall da Vercel.

@@ -12,7 +12,7 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
  * são SECURITY DEFINER e só aceitam `service_role`. Nunca escrevemos direto
  * em `core.*`.
  *
- * Variáveis de ambiente (Infisical, projeto overlens-os):
+ * Variáveis de ambiente (Infisical, projeto knowledge):
  * - CRM_SUPABASE_URL: URL do projeto Supabase do CRM.
  * - CRM_SUPABASE_SERVICE_ROLE_KEY: chave service_role do CRM.
  * - CRM_INTAKE_ACTOR: e-mail que assina o cadastro no CRM. Precisa ser o dono

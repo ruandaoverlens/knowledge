@@ -2,7 +2,7 @@ Next.js app for Overlens. Secrets are managed via [Infisical](https://infisical.
 
 ## Setup local
 
-**Pré-requisitos:** Node.js 20+, conta no Infisical com acesso ao projeto `overlens-os`.
+**Pré-requisitos:** Node.js 20+, conta no Infisical com acesso ao projeto `knowledge`.
 
 1. **Instalar o Infisical CLI**
    - Windows: `winget install infisical.infisical`
@@ -37,7 +37,7 @@ Next.js app for Overlens. Secrets are managed via [Infisical](https://infisical.
 
 ## Onde edito segredos
 
-App web do Infisical → projeto `overlens-os` → ambiente correspondente (`dev`, `preview`, `production`). Mudanças sincronizam pra Vercel automaticamente em ~10s via Native Integration.
+App web do Infisical → projeto `knowledge` → ambiente correspondente (`dev`, `preview`, `production`). Mudanças sincronizam pra Vercel automaticamente em ~10s via Native Integration.
 
 ## Deploy
 
