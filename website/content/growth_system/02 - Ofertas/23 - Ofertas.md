@@ -7,6 +7,8 @@ priority: high
 ai_when_to_use: |
   Use quando o usuário perguntar quais são as ofertas e frentes da Overlens, o status de cada uma, como o portfólio está organizado do ponto de vista comercial, ou quando precisar de uma visão geral antes de detalhar Atlas, Overpass, Vanguarda ou qualquer outra frente.
 related: [growth_system/02 - Ofertas/28 - Atlas, growth_system/02 - Ofertas/29 - Overpass, growth_system/02 - Ofertas/30 - Vanguarda, growth_system/03 - Estratégia/34 - Arquitetura Comercial, growth_system/04 - Operação Comercial/35 - Política Comercial, growth_system/04 - Operação Comercial/36 - Responsabilidades Comerciais, "business_doc/03 - Arquitetura/05 - Política de Instrutoria, Palestras e Ativos de Marca"]
+areas: [vendas, cs]
+kind: referencia
 ---
 # Ofertas
 

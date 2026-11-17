@@ -7,6 +7,8 @@ priority: high
 ai_when_to_use: |
   Use quando o usuário perguntar sobre a Vanguarda, camada de aceleração da Overlens, como posicionar e vender uma oferta de alta intensidade, diferença entre aceleração e incubação, os 8 níveis do programa, preço vigente e piso (resumo, com a regra completa na Política Comercial), histórico de preços praticados, ou como alguém decide entrar na camada de aceleração.
 related: [growth_system/02 - Ofertas/23 - Ofertas, growth_system/02 - Ofertas/29 - Overpass, growth_system/04 - Operação Comercial/35 - Política Comercial, growth_system/04 - Operação Comercial/36 - Responsabilidades Comerciais]
+areas: [vendas, cs]
+kind: referencia
 ---
 # Vanguarda
 

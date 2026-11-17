@@ -7,6 +7,11 @@ priority: high
 ai_when_to_use: |
   Use quando o usuário (humano ou agente) for escrever ou revisar qualquer texto da Overlens para um canal: WhatsApp, e-mail (transacional, conteúdo, relacionamento, convite, oferta, recuperação), Instagram (legenda, Stories, comentários, Direct), LinkedIn, YouTube, VSL, página de vendas ou anúncio. Use também para conferir vícios de escrita (o travessão é proibido; "não é X, é Y", tríades, vocabulário vazio e emojis decorativos são vícios a evitar, admitidos isoladamente quando justificados), níveis de consciência de Schwartz, regras de autoria e identificação do remetente, e o padrão visual de e-mail (botão preto em pílula, títulos em Outfit maiúsculo, sem emojis). Avise que o guia é uma minuta (V1) e que as abas de Instagram, LinkedIn e YouTube estão em revisão. Quem envia, quando e com qual autorização pertence à Política de Mensagens; o tom de voz pertence ao Brand System.
 related: [brand_system/05 - Universo Verbal/03 Tom de Voz, brand_system/05 - Universo Verbal/04 Vocabulário, brand_system/05 - Universo Verbal/05 Território de palavras, estudio_criativo/06 - Touchpoints/06 Pontos de contato, estudio_criativo/06 - Touchpoints/05 Instagram, estudio_criativo/03 - Playbook de Conteúdo/00 Playbook de Conteúdo, growth_system/04 - Operação Comercial/37 - Política de Mensagens]
+areas: [vendas, cs, marketing, atendimento]
+kind: guia
+key: guia-rapido-de-escrita
+version: 1
+updated: 2026-10-10
 ---
 
 # Guia Rápido de Escrita

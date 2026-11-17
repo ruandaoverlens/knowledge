@@ -30,7 +30,7 @@ Esta política abrange WhatsApp, e-mails transacionais e comerciais, redes socia
 
 - Avisos gerais devem preferir grupo e e-mail. <dado q="B" />
 - Envio individual precisa de justificativa, público selecionado, custo e taxa de resposta acompanhados. <dado q="B" />
-- Para lives: aviso no grupo 5 min antes e individual para inscritos ausentes 10/15 min depois de iniciar. <dado q="C" nota="O próprio documento trata esses períodos como hipóteses para teste, não padrões obrigatórios." />
+- Para lives: aviso no grupo entre 5 e 10 minutos antes do início e mensagem individual para inscritos ausentes entre 15 e 20 minutos depois de começar. <dado q="C" nota="Hipóteses para teste, não padrões obrigatórios. Unificado em 16/11/2026: a versão anterior falava em 5 min antes e 10/15 min depois nesta seção e em 5 a 10 min antes e 15 a 20 min depois no exemplo de evento." />
 
 Esses períodos são **hipóteses para teste, não padrões obrigatórios**.
 
@@ -58,7 +58,7 @@ A definição do tom de voz pertence ao Brand System; aqui fica registrado apena
 2. **Nanda Gervasio** prepara o texto conforme o [Guia Rápido de Escrita](/estudio/07-guia-de-escrita/01-guia-rapido-de-escrita) e revisa segmento, dados, links e horários.
 3. Casos fora do padrão vão para **Ruan Braz** (marca e copy), **Cássia Xavier** (oferta comercial), **Rafael Braz** (infra e automação) ou **Timóteo van Eijk** (estratégia).
 4. **Nanda Gervasio** agenda e envia comunicações pontuais; **Rafael Braz** implanta gatilhos e integrações; **Cássia Xavier** recebe oportunidades comerciais.
-5. Registrar versões, testes, aprovações, disparos e resultados no ClickUp. <dado q="B" />
+5. Registrar disparos e resultados no Overchannels (campanhas e histórico de envio, no Growth System); versões, testes e aprovações seguem no ClickUp. <dado q="B" nota="Ajustado em 16/11/2026: os disparos passaram a ser feitos e registrados pelo Overchannels." />
 
 ## Checklist antes do envio
 
@@ -146,7 +146,7 @@ A mudança de estágio deve atualizar automaticamente a elegibilidade para novas
 
 Quem já entrou na live deve ser excluído dessa comunicação. <dado q="B" />
 
-Os intervalos apresentados são hipóteses discutidas na reunião. Devem ser testados antes de se transformarem em cadência oficial. <dado q="C" nota="Esta seção fala em 5 a 10 min antes e 15 a 20 min depois; a seção de cadência fala em 5 min antes e 10/15 min depois. Ambos são hipóteses." />
+Os intervalos apresentados são hipóteses discutidas na reunião e são os mesmos da seção de cadência. Devem ser testados antes de se transformarem em cadência oficial. <dado q="C" />
 
 ### Exemplo prático: recuperação de carrinho
 

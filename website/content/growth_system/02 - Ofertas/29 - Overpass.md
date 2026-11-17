@@ -7,6 +7,8 @@ priority: high
 ai_when_to_use: |
   Use quando o usuário perguntar sobre o Overpass, como posicionar e vender a camada contínua da Overlens, qual o argumento de permanência da assinatura, como alguém decide assinar e por que continua, piso vigente e Overpass Empresarial (resumo, com a regra completa na Política Comercial), histórico de preços praticados, ou como o Overpass se relaciona com Atlas e Vanguarda.
 related: [growth_system/02 - Ofertas/23 - Ofertas, growth_system/02 - Ofertas/28 - Atlas, growth_system/02 - Ofertas/30 - Vanguarda, growth_system/04 - Operação Comercial/35 - Política Comercial, growth_system/04 - Operação Comercial/36 - Responsabilidades Comerciais]
+areas: [vendas, cs]
+kind: referencia
 ---
 # Overpass
 

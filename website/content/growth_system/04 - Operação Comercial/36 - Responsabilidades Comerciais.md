@@ -7,6 +7,12 @@ priority: high
 ai_when_to_use: |
   Use quando o usuário perguntar quem faz o quê na operação comercial da Overlens: quem vende, quem fecha upgrade, quem conduz renovação, quem aprova retenção, reembolso, cancelamento ou compensação, qual o prazo para o Comercial assumir um upgrade encaminhado pelo CS, como funciona a passagem entre Comercial, CS, Parcerias e Financeiro, como se atribui receita de parcerias e indicações, qual a comissão de parceiro externo no Overpass Empresarial, ou o que está decidido, proposto ou pendente em incentivos, OTE, comissões e campos de CRM. Para preços, descontos e exceções de preço, a fonte é a Política Comercial.
 related: [growth_system/03 - Estratégia/34 - Arquitetura Comercial, growth_system/03 - Estratégia/32 - Fluxos, growth_system/04 - Operação Comercial/35 - Política Comercial, growth_system/04 - Operação Comercial/37 - Política de Mensagens, growth_system/02 - Ofertas/23 - Ofertas]
+areas: [vendas, cs]
+kind: politica
+key: responsabilidades-comerciais
+version: 1
+updated: 2026-10-08
+ack: true
 ---
 # Responsabilidades Comerciais
 

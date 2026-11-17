@@ -7,6 +7,12 @@ priority: high
 ai_when_to_use: |
   Use quando o usuário perguntar quanto custa a Vanguarda, qual o piso de negociação, quanto custa um acesso adicional de sócio ou colaborador, quais descontos o vendedor pode dar sem aprovação, como funcionam Pix parcelado e cartão, quais bônus e ingressos podem ser oferecidos, como aplicar crédito de upgrade do Overpass ou do Black Pass, como funciona a renovação e o preço congelado, quais as faixas e benefícios do Overpass Empresarial, qual a comissão de indicação, quanto custam Workshops e AI Builds, quem aprova exceções, o que foi substituído e o que ainda está pendente de decisão na política comercial.
 related: [growth_system/02 - Ofertas/30 - Vanguarda, growth_system/02 - Ofertas/29 - Overpass, growth_system/02 - Ofertas/23 - Ofertas, growth_system/03 - Estratégia/34 - Arquitetura Comercial, growth_system/04 - Operação Comercial/36 - Responsabilidades Comerciais, growth_system/04 - Operação Comercial/37 - Política de Mensagens, "business_doc/03 - Arquitetura/05 - Política de Instrutoria, Palestras e Ativos de Marca"]
+areas: [vendas, cs]
+kind: politica
+key: politica-comercial
+version: 1
+updated: 2026-10-08
+ack: true
 ---
 # Política Comercial
 

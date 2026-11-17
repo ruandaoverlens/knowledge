@@ -7,6 +7,9 @@ priority: high
 ai_when_to_use: |
   Use quando o usuário perguntar como a Overlens vende, como funciona a operação comercial, o que muda com a migração de lançamentos para vendas contínuas, qual o papel de CRM, vendedores, follow-up, recuperação de leads ou WhatsApp, ou quando precisar saber o que já foi decidido e o que ainda está pendente na operação comercial.
 related: [growth_system/03 - Estratégia/32 - Fluxos, growth_system/03 - Estratégia/33 - Growth Loop, growth_system/02 - Ofertas/23 - Ofertas, growth_system/04 - Operação Comercial/35 - Política Comercial, growth_system/04 - Operação Comercial/36 - Responsabilidades Comerciais, growth_system/04 - Operação Comercial/37 - Política de Mensagens, "business_doc/03 - Arquitetura/05 - Política de Instrutoria, Palestras e Ativos de Marca"]
+areas: [vendas, cs]
+area_home: [vendas]
+kind: referencia
 ---
 # Arquitetura Comercial
 

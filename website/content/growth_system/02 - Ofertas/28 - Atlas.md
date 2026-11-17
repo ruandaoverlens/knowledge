@@ -7,6 +7,8 @@ priority: high
 ai_when_to_use: |
   Use quando o usuário perguntar sobre o Atlas, como posicionar e vender a experiência de entrada da Overlens, qual o argumento do Atlas, como alguém descobre e decide entrar, histórico de preços e formatos praticados, ou como o Atlas se conecta às demais camadas do ecossistema.
 related: [growth_system/02 - Ofertas/23 - Ofertas, growth_system/02 - Ofertas/29 - Overpass, business_doc/03 - Arquitetura/01 - Arquitetura de Produtos e Serviços, growth_system/04 - Operação Comercial/35 - Política Comercial, growth_system/04 - Operação Comercial/36 - Responsabilidades Comerciais, growth_system/04 - Operação Comercial/37 - Política de Mensagens]
+areas: [vendas, cs]
+kind: referencia
 ---
 # Atlas
 

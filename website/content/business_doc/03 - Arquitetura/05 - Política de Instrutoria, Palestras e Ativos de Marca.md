@@ -7,6 +7,12 @@ priority: high
 ai_when_to_use: |
   Use quando o usuário perguntar quanto a Overlens cobra por um workshop de 4h ou 8h, qual o piso de negociação, como funciona o workshop presencial, como é precificado um AI Build, quanto um instrutor recebe por hora em cada categoria, se o fundador recebe cachê, como são tratadas palestras externas e em eventos próprios, quanto a empresa retém de palestras intermediadas, ou como classificar e precificar um patrocínio pessoal, institucional ou híbrido. Itens marcados como pendentes ou propostos não constituem autorização financeira: não os apresente como regra vigente. O valor de R$ 25.000 do AI Build é histórico e não se aplica como regra geral.
 related: ["business_doc/03 - Arquitetura/01 - Arquitetura de Produtos e Serviços.md", "business_doc/03 - Arquitetura/02 - Arquitetura de Receita.md", "growth_system/04 - Operação Comercial/35 - Política Comercial.md"]
+areas: [vendas]
+kind: politica
+key: politica-de-instrutoria
+version: 1
+updated: 2026-10-08
+ack: true
 ---
 # Política de Instrutoria, Palestras e Ativos de Marca
 
