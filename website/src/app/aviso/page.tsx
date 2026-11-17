@@ -41,6 +41,17 @@ export default function AvisoPage() {
         </div>
 
         <WaitlistForm />
+
+        <p className="text-sm text-muted-foreground text-center">
+          Para conhecer mais sobre a marca da Overlens, visite{" "}
+          <a
+            href="https://overpass.overlens.com.br"
+            className="text-foreground underline underline-offset-4 hover:no-underline"
+          >
+            overpass.overlens.com.br
+          </a>
+          .
+        </p>
       </div>
     </main>
   );
