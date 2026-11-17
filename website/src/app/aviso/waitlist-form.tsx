@@ -80,7 +80,7 @@ export function WaitlistForm() {
       >
         <p className="text-sm font-medium text-foreground">Seu nome está na lista.</p>
         <p className="text-sm text-muted-foreground">
-          Quando o evento tiver data, o convite chega no e-mail que você deixou aqui.
+          Quando tivermos novidades, avisamos no e-mail que você deixou aqui.
         </p>
       </div>
     );
@@ -175,7 +175,7 @@ export function WaitlistForm() {
       )}
 
       <p className="text-xs text-muted-foreground text-center">
-        Usamos seu contato para falar com você sobre o evento e as novidades da Overlens.
+        Usamos seu contato só para falar sobre o evento.
       </p>
     </form>
   );
