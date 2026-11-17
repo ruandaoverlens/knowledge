@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://tru.overlens.io"),
   title: { default: "Overlens OS", template: "%s · Overlens OS" },
   description:
-    "Sistema operacional da Overlens: brand system, assets, micélio e registros da escola de Empreendedores Nexialistas.",
+    "Sistema operacional da Overlens: brand system, assets, micélio e registros da escola de negócios para quem quer transformar ideias em realidade.",
   robots: { index: false, follow: false },
   icons: { icon: "/icon.svg" },
 };
